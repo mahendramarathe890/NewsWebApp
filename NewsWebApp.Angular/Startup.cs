@@ -87,7 +87,7 @@ namespace NewsWebApp.Angular
 
                 if (env.IsDevelopment())
                 {
-                    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
+                    spa.UseProxyToSpaDevelopmentServer(Configuration["ClientApp:BaseUrl"]);
                 }
             });
         }
