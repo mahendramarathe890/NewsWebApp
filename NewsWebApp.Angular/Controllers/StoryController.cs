@@ -63,7 +63,7 @@ namespace NewsWebApp.Angular.Controllers
             if (!String.IsNullOrEmpty(filter))
             {
                 _serviceCachedData.cachedShowingData = new Dictionary<int, Story>(_serviceCachedData.cachedData.Where(x => !String.IsNullOrEmpty(x.Value.url) &&
-                                               x.Value.title.ToLower().Contains(filter)).Select(i => i));
+                                               x.Value.id.ToString().Contains(filter) || x.Value.title.Contains(filter) || x.Value.url.Contains(filter)).Select(i => i));
 
                 stories = _serviceCachedData.cachedShowingData.Select(i => i.Value).ToList<Story>();
             }
