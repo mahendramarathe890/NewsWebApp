@@ -62,7 +62,7 @@ namespace NewsWebApp.Test.IntegrationTests
         public async Task Test_GetFilteredStories()
         {
             //Arrange
-            string testfilter = "title 1";
+            string testfilter = "Title 1";
             var expectedFilteredCount = 1;
 
             //Act

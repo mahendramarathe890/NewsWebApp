@@ -45,8 +45,8 @@ namespace NewsWebApp.API
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Implement Swagger UI",
-                    Description = "A simple example to Implement Swagger UI",
+                    Title = "NewsWebApp Swagger API",
+                    Description = "A simple example to NewsWebApp Swagger API",
                 });
             });
 
