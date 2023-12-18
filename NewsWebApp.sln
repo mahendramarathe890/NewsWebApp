@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsWebApp.DAL", "NewsWebAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsWebApp.Test", "NewsWebApp.Test\NewsWebApp.Test.csproj", "{886D8264-691A-4656-9CDC-DB5A4BB8BFB1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsWebApp.Angular", "NewsWebApp.Angular\NewsWebApp.Angular.csproj", "{39A126BF-C86D-4B3F-AC15-9F045849BA93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsWebApp.API", "NewsWebApp.API\NewsWebApp.API.csproj", "{39A126BF-C86D-4B3F-AC15-9F045849BA93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

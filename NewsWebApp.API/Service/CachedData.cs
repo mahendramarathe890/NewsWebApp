@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NewsWebApp.Angular.Service
+namespace NewsWebApp.API.Service
 {
     public class CachedData : ICachedData
     {

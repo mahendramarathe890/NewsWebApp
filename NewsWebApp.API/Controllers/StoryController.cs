@@ -6,13 +6,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using NewsWebApp.Angular.Service;
+using NewsWebApp.API.Service;
 using NewsWebApp.Core.Entities;
 using NewsWebApp.Core.Interfaces;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace NewsWebApp.Angular.Controllers
+namespace NewsWebApp.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -63,7 +63,7 @@ namespace NewsWebApp.Angular.Controllers
             if (!String.IsNullOrEmpty(filter))
             {
                 _serviceCachedData.cachedShowingData = new Dictionary<int, Story>(_serviceCachedData.cachedData.Where(x => !String.IsNullOrEmpty(x.Value.url) &&
-                                               x.Value.id.ToString().Contains(filter) || x.Value.title.Contains(filter) || x.Value.url.Contains(filter)).Select(i => i));
+                                               x.Value.id.ToString().Contains(filter) || x.Value.title.Contains(filter)).Select(i => i));
 
                 stories = _serviceCachedData.cachedShowingData.Select(i => i.Value).ToList<Story>();
             }

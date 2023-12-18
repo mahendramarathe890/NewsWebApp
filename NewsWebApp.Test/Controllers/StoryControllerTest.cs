@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NewsWebApp.Angular.Controllers;
-using NewsWebApp.Angular.Service;
+using NewsWebApp.API.Controllers;
+using NewsWebApp.API.Service;
 using NewsWebApp.Core.Entities;
 using NewsWebApp.Core.Interfaces;
 using NewsWebApp.DAL.Service;

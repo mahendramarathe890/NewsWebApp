@@ -1,4 +1,4 @@
-﻿using NewsWebApp.Angular.Service;
+﻿using NewsWebApp.API.Service;
 using NewsWebApp.Core.Entities;
 using System;
 using System.Collections.Generic;

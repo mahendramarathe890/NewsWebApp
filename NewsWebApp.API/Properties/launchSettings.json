@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "NewsWebApp.Angular": {
+    "NewsWebApp.API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
